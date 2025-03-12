@@ -1,101 +1,56 @@
-# Proyecto 2: Un software para la transformación digital
+# Proyecto: Registro de Gastos Personales en Kotlin
 
-> Descripción del Proyecto: Aplicación de Registro de Gastos Personales.
-> 
-> Objetivo del Proyecto: El objetivo de este proyecto es desarrollar una aplicación móvil o de escritorio que permita a los usuarios registrar,
-> clasificar y visualizar sus gastos e ingresos personales de manera fácil y eficiente. La aplicación proporcionará un control de las finanzas personales,
-> permitiendo a los usuarios llevar un registro detallado de sus movimientos financieros, identificar patrones de gasto y generar reportes mensuales de su situación económica.
+## Descripción del Proyecto
+El Proyecto **Registro de Gastos Personales** tiene como objetivo el desarrollo de un script en Kotlin orientado a objetos que permite a los usuarios registrar, clasificar y visualizar sus gastos e ingresos personales de manera eficiente. El software ayudará a los usuarios a tener un control detallado de sus finanzas personales, identificar patrones de gasto, y generar reportes mensuales, facilitando así una toma de decisiones más informada.
 
-<hr>
+## Objetivos del Proyecto
+El propósito de este proyecto es diseñar y desarrollar un software funcional en Kotlin que gestione de manera eficiente los datos de gastos e ingresos personales, aplicando buenas prácticas de programación orientada a objetos. El software debe ser modular, seguro y permitir la expansión hacia un sistema completo que gestione grandes volúmenes de datos financieros.
 
-## Funcionalidades Principales:
+## Funcionalidades Principales
+- **Registro de Gastos e Ingresos**: Los usuarios pueden ingresar manualmente sus gastos e ingresos, asignándoles categorías personalizables, fechas y montos.
+- **Categorías Personalizables**: Los usuarios pueden modificar las categorías de los registros según sus necesidades, lo que ofrece flexibilidad para adaptar el sistema a diversas situaciones.
+- **Generación de Reportes**: Se generan reportes mensuales con resúmenes detallados de los movimientos financieros y análisis por categoría, proporcionando insights sobre el comportamiento económico del usuario.
+- **Simulación de Almacenamiento en la Nube**: El sistema simula el almacenamiento en la nube mediante listas en memoria. En futuras versiones, se planea integrar bases de datos reales como Firebase o MongoDB para un almacenamiento seguro y escalable.
+- **Seguridad y Autenticación**: Aunque la seguridad aún no se implementa completamente en esta versión, se prevé la integración de soluciones como Google OAuth o Firebase Authentication para garantizar el acceso controlado y la protección de los datos.
 
-- Registro de Gastos e Ingresos: Los usuarios podrán ingresar de manera manual sus gastos e ingresos, categorizándolos en diferentes tipos
-  (por ejemplo, alimentos, transporte, ocio, etc.). También podrán asignar una fecha y un valor monetario a cada registro.
+## Tecnologías Utilizadas
+- **Lenguaje de Programación**: Kotlin (para la creación de clases orientadas a objetos y gestión de la lógica del negocio).
+- **Gestión de Datos**: Simulación de almacenamiento en memoria, que permite probar la funcionalidad antes de integrar bases de datos reales.
+- **Seguridad**: La estructura básica de seguridad estará preparada para la futura integración con Google OAuth o Firebase Authentication.
 
-- Categorías Personalizables: La aplicación permitirá a los usuarios personalizar las categorías de sus gastos e ingresos, brindando flexibilidad
-  para adaptarse a diferentes necesidades financieras.
+## Ciclo de Vida del Dato
+1. **Generación de Datos**: Los datos se generan cuando el usuario registra un gasto o ingreso. Cada registro incluye detalles como el monto, la categoría y la fecha.
+2. **Procesamiento de Datos**: Los datos se procesan para generar reportes mensuales y realizar cálculos de totales, así como análisis de los gastos por categorías.
+3. **Almacenamiento y Acceso**: Los datos se almacenan en memoria de manera temporal (simulando la nube), y pueden ser consultados para generar reportes o realizar análisis en cualquier momento.
+4. **Eliminación de Datos**: Los usuarios tienen la opción de eliminar registros cuando estos ya no son necesarios, lo que garantiza que los datos estén siempre actualizados y sean relevantes.
 
-- Visualización de Datos: La aplicación proporcionará una visualización clara de los gastos e ingresos en forma de gráficos o tablas, permitiendo a
-  los usuarios ver su balance general y cómo se distribuyen sus gastos a lo largo del tiempo.
+## Estrategia de Gestión de Datos
+- **Integridad y Consistencia**: El uso de la programación orientada a objetos garantiza la consistencia de los datos. Por ejemplo, la clase `GastoIngreso` tiene validaciones para asegurar que los montos y fechas sean correctos.
+- **Procesamiento y Análisis**: A medida que los usuarios ingresan datos, el sistema realiza automáticamente los cálculos necesarios para generar reportes financieros y gráficos sobre los movimientos.
+- **Escalabilidad**: Aunque los datos se gestionan actualmente en memoria, se integrarán bases de datos en la nube (como Firebase o MongoDB) en futuras versiones para garantizar la escalabilidad y la integridad de los datos.
 
-- Reportes Mensuales: Los usuarios podrán generar reportes mensuales que muestren un resumen de sus gastos e ingresos, así como un análisis de los
-  gastos por categoría, facilitando el entendimiento de sus finanzas y ayudándoles a tomar decisiones informadas.
+## Almacenamiento en la Nube (Simulado)
+- **Simulación de Nube**: En esta versión, se simula el almacenamiento en la nube mediante una lista en memoria, lo que permite acceder a los datos desde cualquier parte del código. Esta solución es un prototipo que, en futuras actualizaciones, será reemplazada por almacenamiento real.
+- **Alternativas Consideradas**: Se evaluaron varias opciones de almacenamiento en la nube como Firebase y MongoDB Atlas por su escalabilidad, facilidad de integración con Kotlin, y sus soluciones de seguridad preconfiguradas.
+- **Seguridad y Disponibilidad**: En futuras versiones, se planea integrar una solución en la nube como Firebase o MongoDB Atlas para asegurar la disponibilidad de los datos y aplicar medidas de seguridad avanzadas como cifrado y respaldo automático en la nube.
 
-- Almacenamiento en la Nube: Todos los datos ingresados por el usuario (gastos, ingresos, categorías, etc.) se almacenarán de manera segura en la nube,
-  lo que permitirá a los usuarios acceder a su información desde cualquier dispositivo, garantizando la sincronización y disponibilidad de los datos.
+## Seguridad y Regulación
+- **Medidas de Seguridad**: A futuro, se integrarán tecnologías de autenticación segura como Google OAuth o Firebase Authentication para garantizar que solo los usuarios autorizados puedan acceder a sus datos.
+- **Cifrado de Datos**: El sistema utilizará cifrado tanto en tránsito como en reposo para proteger los datos sensibles del usuario.
+- **Regulaciones Aplicables**: En el caso de que se manejen datos sensibles, el sistema cumplirá con las regulaciones de protección de datos como el GDPR, garantizando que los usuarios puedan gestionar el acceso y control de su información personal.
 
-- Seguridad y Autenticación: La aplicación contará con una capa de seguridad mediante autenticación de usuarios. Los usuarios deberán registrarse e
-  iniciar sesión con su cuenta (por ejemplo, utilizando su cuenta de Google o correo electrónico), para garantizar que sus datos estén protegidos.
+## Impacto en IT y OT
+Este proyecto está orientado principalmente a **IT** (Tecnologías de la Información) debido a que gestiona y procesa datos personales a través de aplicaciones y servicios en la nube. Sin embargo, en el futuro, se podrían integrar dispositivos **IoT** (Internet de las Cosas), como medidores inteligentes de energía o dispositivos de pago automáticos, lo que permitiría registrar gastos automáticamente.
 
-<hr>
+## Mejoras en IT y OT
+- **Automatización**: Se podrían automatizar importaciones de datos financieros desde otros dispositivos o servicios, por ejemplo, utilizando APIs de bancos o sistemas de pagos para registrar automáticamente los gastos.
+- **Integración con IoT**: La integración con dispositivos IoT permitiría registrar automáticamente los gastos asociados con consumo energético, lo que proporcionaría un análisis en tiempo real de los gastos y facilitaría la visualización de patrones de consumo.
 
-## Tecnologías Utilizadas:
+## Tecnologías Habilitadoras Digitales (THD)
+Este proyecto hace uso de diversas **Tecnologías Habilitadoras Digitales** (THD) para mejorar la funcionalidad y la eficiencia de la solución:
+- **Cloud Computing**: La simula el uso de la nube, asegurando que los datos sean accesibles desde cualquier dispositivo y ofreciendo flexibilidad para implementar almacenamiento real en la nube.
+- **Big Data**: El análisis de grandes volúmenes de datos financieros puede proporcionar patrones complejos y recomendaciones personalizadas para la gestión de las finanzas.
+- **Seguridad y Cifrado**: Se implementarán soluciones de cifrado y autenticación para garantizar que los datos estén protegidos contra accesos no autorizados.
 
-- Frontend: El diseño y la interfaz de usuario se construirán utilizando HTML, CSS y JavaScript. Para la parte móvil, se podría utilizar React Native o
- Flutter para crear una aplicación que funcione en dispositivos Android e iOS.
-
-- Backend: Para la gestión de datos, se utilizará un sistema de base de datos en la nube como Firebase o MongoDB Atlas, lo que permitirá un almacenamiento
-seguro, en tiempo real, de los gastos e ingresos de los usuarios.
-
-- Autenticación: La aplicación implementará autenticación básica mediante Firebase Authentication o mediante el uso de OAuth con cuentas de Google
-para garantizar la seguridad de los datos personales.
-
-<hr>
-
-
-## Ciclo de Vida del Dato:
-
-- Generación de Datos: Los usuarios generan los datos al registrar sus gastos e ingresos. Cada entrada incluirá información como la cantidad, la
-categoría, la fecha y cualquier otra anotación relevante.
-
-- Procesamiento de Datos: Los datos serán procesados para generar reportes y estadísticas. Los registros serán categorizados, y
-se realizarán cálculos para determinar el total de ingresos y gastos, además de las proporciones de cada categoría.
-
-- Almacenamiento y Acceso: Los datos se almacenarán de manera segura en la nube utilizando servicios como Firebase o MongoDB,
-permitiendo su acceso desde cualquier dispositivo.
-
-- Eliminación de Datos: Los usuarios tendrán la opción de eliminar o modificar registros antiguos a medida que sus necesidades cambien
-o cuando los datos ya no sean necesarios.
-
-- Almacenamiento en la Nube: La aplicación almacenará todos los datos de los usuarios de manera segura en la nube, permitiendo acceder a
-ellos desde diferentes dispositivos. El uso de la nube también asegura la disponibilidad de los datos en todo momento y la posibilidad de realizar copias
-de seguridad automáticas. Se evaluarán opciones como Firebase y MongoDB Atlas para el almacenamiento de datos, tomando en cuenta la seguridad, la escalabilidad y la facilidad de integración con la aplicación.
-
-<hr>
-
-## Seguridad y Regulación: 
-
-Para asegurar la protección de los datos personales de los usuarios, la aplicación implementará las siguientes medidas de seguridad:
-
-- Cifrado de Datos: Los datos sensibles, como los registros financieros, se cifrarán durante la transmisión y en el almacenamiento.
-  
-- Autenticación de Usuario: Los usuarios deberán registrarse e iniciar sesión en la aplicación mediante una autenticación segura (por ejemplo, Google OAuth) para acceder a sus datos personales.
-
-- Acceso Controlado: El acceso a la aplicación estará restringido a usuarios autenticados para evitar el acceso no autorizado a la información financiera.
-
-Además, se considerará la aplicación de regulaciones de protección de datos, como el Reglamento General de Protección de Datos (GDPR), si se incluye en el futuro el manejo de información sensible.
-
-<hr>
-
-## Impacto en IT y OT: 
-
-Este proyecto tiene un enfoque principalmente en IT (Tecnologías de la Información), ya que se basa en la gestión y procesamiento de datos personales a través de aplicaciones y servicios en la nube. 
-Sin embargo, la aplicación puede beneficiarse de la integración con dispositivos IoT, como medidores inteligentes de consumo energético o dispositivos de pago, que pueden registrar automáticamente 
-los gastos de los usuarios.
-
-<hr>
-
-## Implicación de las Tecnologías Habilitadoras Digitales (THD): 
-
-Este proyecto hace uso de varias tecnologías habilitadoras digitales, como:
-
-- Cloud Computing: Para almacenar los datos de forma segura en la nube y permitir el acceso desde cualquier dispositivo.
-
-- Big Data: Para analizar patrones de gastos e ingresos y generar reportes personalizados para los usuarios.
-
-- Seguridad: Aplicación de técnicas de cifrado y autenticación para proteger los datos sensibles de los usuarios.
-
-- Beneficios Operativos: La implementación de esta aplicación facilitará a los usuarios el control sobre sus finanzas personales, ayudándoles a
-gestionar mejor sus gastos e ingresos, ahorrar dinero y tomar decisiones más informadas. Además, les permitirá mantener un registro organizado y
-accesible desde cualquier lugar.
+## Conclusión
+Este script en Kotlin proporciona una solución funcional para el registro y análisis de gastos personales. Aunque la versión actual del proyecto simula la nube y la autenticación, su diseño orientado a objetos permite su expansión y escalabilidad. A futuro, la integración de servicios de almacenamiento en la nube, la seguridad avanzada y la automatización de procesos financieros brindarán un valor aún mayor a los usuarios, mejorando la experiencia y el control sobre sus finanzas personales.
