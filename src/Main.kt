@@ -32,7 +32,7 @@ fun main() {
                 println("Registro agregado con éxito.")
             }
             2 -> {
-                println("Ingresa el mes (ej. ENERO):")
+                println("Ingresa el mes (ej. JANUARY):")
                 val mes = Month.valueOf(scanner.next().uppercase())
                 println("Ingresa el año (ej. 2025):")
                 val año = scanner.nextInt()
