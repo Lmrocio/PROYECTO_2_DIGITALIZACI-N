@@ -197,4 +197,16 @@ El uso de **Cloud Computing** permite que los datos sean accesibles en cualquier
 ### 3. **Si no has utilizado THD, ¿cómo podrías implementarlas para enriquecer tu solución?**
 Si no se hubieran implementado tecnologías habilitadoras digitales, se podrían incluir soluciones como **Big Data** para analizar patrones de consumo de los usuarios o **Cloud Computing** para facilitar el acceso y almacenamiento seguro de los datos. Estas tecnologías aumentarían la escalabilidad y seguridad del sistema, mejorando la experiencia del usuario.
 
+---
+
+# Instrucciones para Ejecutar el Proyecto "Registro de Gastos Personales" en Kotlin
+
+Este proyecto es una aplicación de consola para gestionar los gastos personales de los usuarios. A continuación, te explico cómo ejecutar el código en tu entorno local.
+
+## Requisitos Previos
+
+Antes de ejecutar el proyecto, asegúrate de tener lo siguiente instalado:
+
+- **JDK (Java Development Kit)**: Este proyecto está basado en Kotlin, que es un lenguaje que se ejecuta sobre la JVM (Java Virtual Machine), por lo que necesitas tener el JDK instalado en tu sistema. Puedes descargarlo desde [aquí](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) o utilizar una distribución como [OpenJDK](https://openjdk.java.net/).
+- **IntelliJ IDEA o cualquier otro IDE que soporte Kotlin**: Para trabajar con el código en Kotlin de manera eficiente, te recomendamos usar un IDE como [IntelliJ IDEA](https://www.jetbrains.com/idea/) o [Android Studio](https://developer.android.com/studio). Si prefieres trabajar con línea de comandos, también puedes usar [Visual Studio Code](https://code.visualstudio.com/) con el plugin de Kotlin.
 
