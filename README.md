@@ -1,4 +1,169 @@
-# Proyecto: Registro de Gastos Personales en Kotlin
+# Registro de Gastos Personales: Parte 3 del proyecto
+
+Aplicación de consola en Kotlin para gestionar ingresos y gastos de forma sencilla y modular. Diseñada como prototipo para simular una futura integración con bases de datos en la nube y autenticación segura.
+
+---
+
+## Índice
+
+- [Motivación](#motivación)
+- [Contexto empresarial](#contexto-empresarial)
+- [Objetivos funcionales del software](#objetivos-funcionales-del-software)
+- [Tecnologías utilizadas](#tecnologías-utilizadas)
+- [Instrucciones de despliegue](#instrucciones-de-despliegue)
+- [Ejemplos de uso](#ejemplos-de-uso)
+- [Demo online (futura)](#demo-online-futura)
+- [Estructura del proyecto](#estructura-del-proyecto)
+- [Cómo contribuir](#cómo-contribuir)
+- [Licencia](#licencia)
+- [Documentación técnica y devlog](#documentación-técnica-y-devlog)
+- [Wiki](#wiki)
+
+---
+
+## Motivación
+
+La gestión financiera personal es una habilidad clave en la vida cotidiana. Esta aplicación surge como una solución simple pero funcional para ayudar a controlar gastos e ingresos desde una interfaz por consola, con visión de crecimiento a futuro.
+
+---
+
+## Contexto empresarial
+
+Desarrollado como parte del módulo de Digitalización Aplicada a los Sectores Productivos en un CFGS de Desarrollo de Aplicaciones Web, el proyecto simula una solución adoptable por usuarios finales o pequeñas empresas en su fase inicial de transformación digital.
+
+---
+
+## Objetivos funcionales del software
+
+- Registrar ingresos y gastos categorizados.
+- Consultar movimientos por rango de fechas, tipo o categoría.
+- Visualizar balance actual.
+- Simular almacenamiento en la nube (persistencia por fichero).
+- Preparar el sistema para futuras integraciones con Firebase, MongoDB y autenticación.
+
+---
+
+## Tecnologías utilizadas
+
+- **Lenguaje:** Kotlin (JVM)
+- **IDE recomendado:** IntelliJ IDEA o Visual Studio Code
+- **Persistencia simulada:** Archivos locales
+- **Control de versiones:** Git
+- **Gestión de dependencias:** Gradle (opcional)
+
+---
+
+## Instrucciones de despliegue
+
+1. Clona este repositorio:  
+   'git clone https://github.com/Lmrocio/PROYECTO_2_DIGITALIZACI-N.git'
+
+2. Abre el proyecto en tu IDE favorito (se recomienda IntelliJ).
+
+3. Ejecuta el archivo `main.kt`.
+
+4. Interactúa desde consola con el menú de opciones.
+
+---
+
+## Ejemplos de uso
+
+- Registrar un gasto en la categoría "Comida".
+- Consultar gastos del mes anterior.
+- Visualizar el balance total actual.
+
+Próximamente se incluirán capturas de pantalla y ejemplos detallados.
+
+---
+
+## Demo online (futura)
+
+El objetivo a medio plazo es desplegar una versión web con interfaz gráfica y autenticación mediante Firebase o clave de acceso local.
+
+---
+
+## Estructura del proyecto
+
+registro-gastos-kotlin
+
+├── src/
+
+│ ├── models/ # Clases como Gasto, Ingreso, Usuario
+
+│ ├── services/ # Lógica de negocio
+
+│ ├── storage/ # Módulo de persistencia
+
+│ └── main.kt # Punto de entrada
+
+├── data/ # Datos simulados o exportaciones
+
+├── README.md
+
+└── CONTRIBUTING.md
+
+---
+
+## Cómo contribuir
+
+Cualquier tipo de contribución es bienvenida y apreciada.
+
+Puedes contribuir de las siguientes formas:
+
+- **Reportando errores**: Si encuentras algún bug o comportamiento inesperado, por favor, crea un *issue* describiéndolo con detalle.
+- **Mejoras y nuevas funcionalidades**: Puedes proponer nuevas ideas o implementar funcionalidades directamente mediante un *pull request*.
+- **Documentación**: Ayuda a mejorar la documentación, corrigiendo errores o ampliando explicaciones.
+- **Revisión de código**: Si revisas código de otros colaboradores y haces sugerencias, ¡también estás contribuyendo!
+
+Para más información, consulta el archivo [CONTRIBUTING.md](CONTRIBUTING.md).
+
+Pasos básicos para contribuir:
+
+1. Haz un fork del repositorio.
+2. Crea una rama nueva:  
+   'git checkout -b feature/nombre-de-tu-funcionalidad'
+3. Realiza tus cambios y haz commit:  
+   'git commit -m "Añadida nueva funcionalidad X"'
+4. Haz push a tu fork:  
+   'git push origin feature/nombre-de-tu-funcionalidad'
+5. Abre un *pull request* y explica los cambios.
+
+---
+
+## Licencia
+
+Este proyecto está bajo la Licencia MIT, lo que significa que puedes usarlo, modificarlo y distribuirlo con libertad, siempre que mantengas los avisos de derechos de autor originales.
+
+Consulta el archivo `LICENSE` para más detalles.
+
+---
+
+## Documentación técnica y devlog
+
+La documentación técnica se encuentra en la carpeta `/docs`, e incluye:
+
+- Diagramas de clases y estructura de carpetas.
+- Guías de desarrollo interno.
+- Historial de versiones y cambios en formato devlog (pendiente de añadir).
+
+Esta sección se actualizará conforme avance el desarrollo del proyecto.
+
+---
+
+## Wiki
+
+Consulta nuestra [Wiki](https://github.com/tu-usuario/registro-gastos-kotlin/wiki) para acceder a:
+
+- Guías paso a paso para comenzar con el proyecto.
+- FAQ con preguntas comunes sobre funcionamiento y desarrollo.
+- Propuestas de mejora y hoja de ruta.
+- Información técnica avanzada y decisiones de arquitectura.
+- Recursos útiles sobre Kotlin, persistencia y estructura modular.
+
+Si deseas colaborar en la wiki, también puedes sugerir nuevos artículos o editar los existentes.
+
+
+# (PARTE 1 Y 2) Proyecto: Registro de Gastos Personales en Kotlin
 
 ## Descripción del Proyecto
 
