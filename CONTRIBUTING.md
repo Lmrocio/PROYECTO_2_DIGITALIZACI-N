@@ -21,7 +21,7 @@ Antes de comenzar, asegúrate de tener instalado:
 
 1. Haz un fork del repositorio.
 2. Clona tu fork:
-   'git clone https://github.com/Lmrocio/PROYECTO_2_DIGITALIZACI-N/'
+   'git clone https://github.com/Lmrocio/PROYECTO_2_DIGITALIZACI-N.git'
 3. Crea una nueva rama para tu contribución:
    'git checkout -b nombre-de-tu-rama'
 4. Realiza los cambios necesarios.
