@@ -140,13 +140,7 @@ Consulta el archivo `LICENSE` para más detalles.
 
 ## Documentación técnica y devlog
 
-La documentación técnica se encuentra en la carpeta `/docs`, e incluye:
-
-- Diagramas de clases y estructura de carpetas.
-- Guías de desarrollo interno.
-- Historial de versiones y cambios en formato devlog (pendiente de añadir).
-
-Esta sección se actualizará conforme avance el desarrollo del proyecto.
+La documentación técnica se encuentra en la carpeta `/docs`. Se puede visualizar la documentación del proyecto generada con ``dokka`` en el siguiente enlace:
 
 👉 [Ver documentación del proyecto](docs/index.html)
 
