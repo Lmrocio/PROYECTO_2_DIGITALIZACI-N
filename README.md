@@ -152,7 +152,7 @@ Esta sección se actualizará conforme avance el desarrollo del proyecto.
 
 ## Wiki
 
-Consulta nuestra [Wiki](https://github.com/tu-usuario/registro-gastos-kotlin/wiki) para acceder a:
+Consulta nuestra [Wiki](https://github.com/Lmrocio/PROYECTO_2_DIGITALIZACI-N/wiki) para acceder a:
 
 - Guías paso a paso para comenzar con el proyecto.
 - FAQ con preguntas comunes sobre funcionamiento y desarrollo.
