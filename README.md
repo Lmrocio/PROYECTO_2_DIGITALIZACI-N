@@ -148,7 +148,7 @@ La documentación técnica se encuentra en la carpeta `/docs`, e incluye:
 
 Esta sección se actualizará conforme avance el desarrollo del proyecto.
 
-👉 [Ver documentación del proyecto](https://github.com/Lmrocio/PROYECTO_2_DIGITALIZACI-N/blob/main/docs/index.html)
+👉 [Ver documentación del proyecto](https://github.io/Lmrocio/PROYECTO_2_DIGITALIZACI-N/blob/main/docs/index.html)
 
 ---
 
