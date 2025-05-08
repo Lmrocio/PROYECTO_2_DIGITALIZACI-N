@@ -1,0 +1,34 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:////PointingToDeclaration/-registro-gastos-personales/[root]/index.html
+$dokka.location://main/#/PointingToDeclaration/-registro-gastos-personales/[root]/main.html
+$dokka.location:models////PointingToDeclaration/-registro-gastos-personales/models/index.html
+$dokka.location:models/Categoria.ALIMENTACION///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-registro-gastos-personales/models/-categoria/-a-l-i-m-e-n-t-a-c-i-o-n/index.html
+$dokka.location:models/Categoria.OCIO///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-registro-gastos-personales/models/-categoria/-o-c-i-o/index.html
+$dokka.location:models/Categoria.OTRO///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-registro-gastos-personales/models/-categoria/-o-t-r-o/index.html
+$dokka.location:models/Categoria.SALUD///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-registro-gastos-personales/models/-categoria/-s-a-l-u-d/index.html
+$dokka.location:models/Categoria.TRANSPORTE///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-registro-gastos-personales/models/-categoria/-t-r-a-n-s-p-o-r-t-e/index.html
+$dokka.location:models/Categoria.VIVIENDA///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-registro-gastos-personales/models/-categoria/-v-i-v-i-e-n-d-a/index.html
+$dokka.location:models/Categoria///PointingToDeclaration/-registro-gastos-personales/models/-categoria/index.html
+$dokka.location:models/Categoria/descripcion/#/PointingToDeclaration/-registro-gastos-personales/models/-categoria/descripcion.html
+$dokka.location:models/Categoria/entries/#/PointingToDeclaration/-registro-gastos-personales/models/-categoria/entries.html
+$dokka.location:models/Categoria/valueOf/#kotlin.String/PointingToDeclaration/-registro-gastos-personales/models/-categoria/value-of.html
+$dokka.location:models/Categoria/values/#/PointingToDeclaration/-registro-gastos-personales/models/-categoria/values.html
+$dokka.location:models/GastoIngreso///PointingToDeclaration/-registro-gastos-personales/models/-gasto-ingreso/index.html
+$dokka.location:models/GastoIngreso/GastoIngreso/#kotlin.Double#models.Categoria#java.time.LocalDate/PointingToDeclaration/-registro-gastos-personales/models/-gasto-ingreso/-gasto-ingreso.html
+$dokka.location:models/GastoIngreso/categoria/#/PointingToDeclaration/-registro-gastos-personales/models/-gasto-ingreso/categoria.html
+$dokka.location:models/GastoIngreso/fecha/#/PointingToDeclaration/-registro-gastos-personales/models/-gasto-ingreso/fecha.html
+$dokka.location:models/GastoIngreso/monto/#/PointingToDeclaration/-registro-gastos-personales/models/-gasto-ingreso/monto.html
+$dokka.location:services////PointingToDeclaration/-registro-gastos-personales/services/index.html
+$dokka.location:services/RegistroService///PointingToDeclaration/-registro-gastos-personales/services/-registro-service/index.html
+$dokka.location:services/RegistroService/RegistroService/#/PointingToDeclaration/-registro-gastos-personales/services/-registro-service/-registro-service.html
+$dokka.location:services/RegistroService/agregarRegistro/#kotlin.Double#kotlin.String#java.time.LocalDate/PointingToDeclaration/-registro-gastos-personales/services/-registro-service/agregar-registro.html
+$dokka.location:services/RegistroService/eliminarRegistro/#models.GastoIngreso/PointingToDeclaration/-registro-gastos-personales/services/-registro-service/eliminar-registro.html
+$dokka.location:services/RegistroService/obtenerRegistros/#/PointingToDeclaration/-registro-gastos-personales/services/-registro-service/obtener-registros.html
+$dokka.location:services/ReporteService///PointingToDeclaration/-registro-gastos-personales/services/-reporte-service/index.html
+$dokka.location:services/ReporteService/ReporteService/#/PointingToDeclaration/-registro-gastos-personales/services/-reporte-service/-reporte-service.html
+$dokka.location:services/ReporteService/generarReporteMensual/#kotlin.collections.List[models.GastoIngreso]#java.time.Month#kotlin.Int/PointingToDeclaration/-registro-gastos-personales/services/-reporte-service/generar-reporte-mensual.html
+$dokka.location:services/ReporteService/imprimirReporte/#services.RegistroService#java.time.Month#kotlin.Int/PointingToDeclaration/-registro-gastos-personales/services/-reporte-service/imprimir-reporte.html
+models
+services
+
